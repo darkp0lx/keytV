@@ -1,0 +1,259 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-header .contenedor-logo img {
+  width: 150px;
+}
+.container-header .contenedor-nav {
+  width: 40%;
+}
+.container-header .contenedor-nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-header .contenedor-nav ul li {
+  color: #233142;
+  list-style: none;
+  cursor: pointer;
+}
+.container-header .contenedor-nav ul li:hover {
+  color: #4f9da6;
+  font-weight: 500;
+}
+.container-header .contenedor-extra {
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-header .contenedor-extra i {
+  color: #233142;
+  cursor: pointer;
+}
+.container-header .contenedor-extra i:hover {
+  color: #4f9da6;
+}
+.item {
+  display: none;
+  padding: 20px;
+  align-items: center;
+  animation: aparecer 1.2s forwards;
+}
+.item .info {
+  padding: 20px;
+}
+.item .info p {
+  padding: 20px;
+}
+.item img {
+  width: 500px;
+  height: 500px;
+}
+.item:first-child {
+  display: flex;
+}
+#music {
+  display: flex;
+  justify-content: space-between;
+  background: #f8efea;
+  padding: 0;
+}
+#music .info {
+  width: 70%;
+  margin-right: -100px;
+  position: relative;
+}
+#music .info h2 {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 80px;
+  text-align: center;
+  font-family: "Finger Paint";
+}
+.container-instagram_feed {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 100vh;
+}
+.container-instagram_feed .block-one {
+  width: 50%;
+  margin-right: 70px;
+}
+.container-instagram_feed .block-one h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Lilita One', cursive;
+}
+.container-instagram_feed .block-one p {
+  text-align: center;
+}
+.container-instagram_feed .block-one .container-img {
+  width: 100%;
+}
+.container-instagram_feed .block-one .container-img .container {
+  display: flex;
+  justify-content: center;
+}
+.container-instagram_feed .block-one .container-img .container .img {
+  margin: 10px;
+  width: 25%;
+  height: 25vh;
+}
+.container-instagram_feed .block-one .container-img .container .img img {
+  width: 100%;
+  height: 100%;
+}
+.container-instagram_feed .block-two {
+  width: 40%;
+}
+.container-instagram_feed .block-two .list-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.container-instagram_feed .block-two .list-item .contenedor-fecha {
+  padding: 10px 15px;
+  border-radius: 5px;
+  justify-content: center;
+  box-shadow: 0px 0px 15px -4px #6920b8;
+}
+.container-instagram_feed .block-two .list-item .contenedor-fecha p {
+  text-align: center;
+  font-weight: bold;
+}
+.container-instagram_feed .block-two .list-item .contenedor-fecha span {
+  text-align: center;
+  color: #8925ef;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Long Cang";
+}
+.container-instagram_feed .block-two .list-item .contenedor-titulo h3 {
+  font-family: "Lilita One";
+}
+.container-instagram_feed .block-two .list-item .contenedor-boton {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #8925ef;
+}
+.container-instagram_feed .block-two .list-item .contenedor-boton a {
+  color: #8925ef;
+  font-family: 'Roboto', cursive;
+  font-weight: bold;
+  text-decoration: none;
+}
+.container-instagram_feed .block-two .list-item .contenedor-boton:hover {
+  border: 0px;
+  box-shadow: 0px 0px 15px -4px #6920b8;
+}
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -50vh;
+  font-size: 70px;
+  text-align: center;
+}
+.arrows div {
+  color: #111;
+  margin: 0 30px;
+  transition: all 0.12s;
+  font-size: 70px;
+}
+.arrows div:hover {
+  font-size: 80px;
+  color: #555;
+  margin-top: -7px;
+}
+.vinil {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #e2e7e1;
+}
+.vinil .info {
+  width: 40vw;
+  text-align: center;
+}
+.vinil .info #head-vinil {
+  font-family: 'Long Cang', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #6a20b8;
+}
+.vinil .img {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+.vinil .img img {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.vinil .botones-vinil {
+  display: flex;
+  justify-content: center;
+}
+.vinil .botones-vinil .fab {
+  font-size: 50px;
+  color: #6a20b8;
+}
+.vinil .botones-vinil .boton-spotify {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  border: solid 2px #6a20b8;
+}
+.vinil .botones-vinil .boton-spotify .text-boton h3 {
+  padding: 5px;
+  margin: 0;
+  color: #6a20b8;
+}
+.vinil .botones-vinil .boton-spotify .text-boton p {
+  padding: 0 5px 0 5px;
+  margin: 0;
+  font-size: 12px;
+  color: #6a20b8;
+}
+.vinil .botones-vinil .boton-itunes {
+  cursor: pointer;
+  color: #6a20b8;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: solid 2px #6a20b8;
+}
+.vinil .botones-vinil .boton-itunes .text-boton h3 {
+  margin: 0;
+  color: #6a20b8;
+}
+.vinil .botones-vinil .boton-itunes .text-boton p {
+  padding: 0 5px 0 5px;
+  margin: 0;
+  color: #6a20b8;
+  font-size: 12px;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
